@@ -1,9 +1,17 @@
 # Nerfies
 
-This is the repository that contains source code for 
+This is the repository that contains source code for the [RL-CBF website](https://rl-cbf.github.io/)
 
-If you find Nerfies useful for your work please cite:
+If you find RL-CBF useful for your work please cite:
 ```
+@misc{tan2023value,
+      title={Value Functions are Control Barrier Functions: Verification of Safe Policies using Control Theory}, 
+      author={Daniel C. H. Tan and Fernando Acero and Robert McCarthy and Dimitrios Kanoulas and Zhibin Li},
+      year={2023},
+      eprint={2306.04026},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
 # Website License
