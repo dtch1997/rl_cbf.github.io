@@ -158,7 +158,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          Guaranteeing safe behaviour of reinforcement learning (RL) policies poses significant challenges for safety-critical applications, despite RL's generality and scalability. To address this, we propose a new approach to apply verification methods from control theory to learned value functions. By analyzing task structures for safety preservation, we formalize original theorems that establish links between value functions and control barrier functions. Further, we propose novel metrics for verifying value functions in safe control tasks and practical implementation details to improve learning. Our work presents a novel method for certificate learning, which unlocks a diversity of verification techniques from control theory for RL policies, and marks a significant step towards a formal framework for the general, scalable, and verifiable design of RL-based control systems. 
+          In the domain of safety-critical applications, there is a pressing need for control methods that are not only scalable but also verifiable. Traditional control strategies, which rely on certification processes, often struggle to adapt to the complexity inherent in these systems. Conversely, while reinforcement learning (RL) techniques show promise in scaling effectively, their verifiability remains a significant challenge. Our research introduces a novel approach that bridges this gap by offering strong guarantees on constraint satisfaction for general dynamical systems, diverging from previous works that primarily focus on certification. Our study delves into the prerequisites for the verification of learned Value Functions (VFs) through the lens of Control Barrier Function (CBF) attributes. We leverage the foundational principles of safe VFs (SVFs) to design a reward mechanism that inherently guides the optimal VF to embody a CBF. Our approach allows the resulting VF to restrict subsequent policy actions to safe trajectories, in the context of complex control problems. Furthermore, we investigate the feasibility of conducting formal verification of VFs by exploiting CBF properties. This research marks a significant advancement towards achieving control methods that are both scalable to complex systems and amenable to rigorous verification processes. Through the integration of learning-based control with traditional safety guarantees, we pave the way for more reliable and efficient solutions in safety-critical applications.
         </div>
       </div>
     </div>
@@ -219,9 +219,9 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@misc{tan2023value,
-      title={Value Functions are Control Barrier Functions: Verification of Safe Policies using Control Theory}, 
-      author={Daniel C. H. Tan and Fernando Acero and Robert McCarthy and Dimitrios Kanoulas and Zhibin Li},
-      year={2023},
+      title={Safe Value Functions: Learned Critics as Hard Safety Constraints}, 
+      author={Daniel C. H. Tan and Fernando Acero and Robert McCarthy and Andromachi Maria Delfaki and Zhibin Li and Dimitrios Kanoulas},
+      year={2024},
       eprint={2306.04026},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
