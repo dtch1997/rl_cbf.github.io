@@ -5,9 +5,9 @@ This is the repository that contains source code for the [RL-CBF website](https:
 If you find RL-CBF useful for your work please cite:
 ```
 @misc{tan2023value,
-      title={Value Functions are Control Barrier Functions: Verification of Safe Policies using Control Theory}, 
-      author={Daniel C. H. Tan and Fernando Acero and Robert McCarthy and Dimitrios Kanoulas and Zhibin Li},
-      year={2023},
+      title={Safe Value Functions: Learned Critics as Hard Safety Constraints}, 
+      author={Daniel C. H. Tan and Fernando Acero and Robert McCarthy and Andromachi Maria Delfaki and Zhibin Li and Dimitrios Kanoulas},
+      year={2024},
       eprint={2306.04026},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
