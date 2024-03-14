@@ -1,6 +1,6 @@
 # RL-CBF
 
-This is the repository that contains source code for the [RL-CBF website](https://rl-cbf.github.io/)
+This is the repository that contains source code for the [website](https://rl-cbf.github.io/)
 
 If you find RL-CBF useful for your work please cite:
 ```
